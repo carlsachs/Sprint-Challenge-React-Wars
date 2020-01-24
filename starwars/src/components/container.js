@@ -19,12 +19,7 @@ export default function Container () {
     return (
 
         <div>
-            <Card />
-            {data.map(p => (
-                <div>
-                  <Post  post={p}/>
-                </div>
-          ))}
+           <Card />
         </div>
 
     )
