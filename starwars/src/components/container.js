@@ -1,6 +1,13 @@
 import React, { useState , useEffect } from "react";
 import axios from "axios";
 import Card from "./card"
+import styled from "styled-components";
+
+const MainWrap = styled.div `
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 7%;
+`;
 
 export default function Container () {
     const [star, setStar] = useState([]);
@@ -16,10 +23,10 @@ export default function Container () {
     }, []);
     console.log(star);
     return(
-        <div>
+        <MainWrap>
             {star.map(item => (
                 <Card data={item}/>
             ))}
-        </div>
+        </MainWrap>
     )
 }

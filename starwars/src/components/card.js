@@ -3,12 +3,16 @@ import styled from "styled-components";
 
 const DivWrap = styled.div `
     color: black;
-    background-color: darkgrey;
+    background-color: green;
     width: 30%;
     margin-left: 10%;
     border-radius: 10%;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 40px;
+    h2 {
+        color: blue;
+    }
 `;
 
 const Card = props => {
