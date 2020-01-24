@@ -12,14 +12,14 @@ const DivWrap = styled.div `
 `;
 
 const Card = props => {
-    // eslint-disable-next-line no-unused-expressions
+    console.log(props)
     return(
     <DivWrap>
-        <h2>Name: </h2>
-        <p>Height: </p>
-        <p>Eye Color:</p>
-        <p>Birth Year:</p>
-        <p>Hair Color:</p>
+        <h2>Name: {props.data.name}</h2>
+        <p>Height: {props.data.height}</p>
+        <p>Eye Color: {props.data.eye_color}</p>
+        <p>Birth Year: {props.data.birth_year}</p>
+        <p>Hair Color: {props.data.hair_color}</p>
     </DivWrap>
     )
 }
