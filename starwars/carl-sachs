@@ -1,0 +1,14 @@
+- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+	React realizes that DOM manipulation is quite the task, so it tries to dumb it down and make it easier.  That's why we write all the html within react for it to 
+	render on the page.
+- [ ] What does it mean to _think_ in react?
+	To think in react, you need to think in a "component-structure".
+
+- [ ] Describe state.
+	State is the part of the app that can change.
+
+- [ ] Describe props.
+	props, or properties are the pieces of data getting passed around the components
+
+- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+	side effects are things that happen outside the function of the scope and can be synced with useEffect(())
